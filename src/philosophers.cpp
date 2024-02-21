@@ -127,9 +127,9 @@ void Filozof(int id, int filozofowie) {
 
         // -----PUT OFF LEFT FORK-----
         terminal_lock.lock();
-        lewy_widelec_lock.unlock(); //filozof zwalnia blokade na lewym widelcu 
+        lewy_widelec_lock.unlock();
         ma_widelec[lewy_widelec_id] = false;
-        cv[lewy_widelec_id].notify_one(); //powiadamiamy filozofa ktory czeka na zmienna warunkowa     
+        cv[lewy_widelec_id].notify_one();   
         mvwprintw(widelce_win, 0, 0, " ");
         wrefresh(widelce_win);
         terminal_lock.unlock();
