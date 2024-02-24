@@ -149,7 +149,7 @@ void Filozof(int id, int filozofowie) {
 int main(int argc, char* argv[]) {
     initscr();
     int filozofowie = atoi(argv[1]);
-
+    // change it to vectors
     w = new std::mutex[filozofowie]; 
     std::thread f[filozofowie]; 
     ma_widelec = new bool[filozofowie]; 
