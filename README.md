@@ -18,5 +18,5 @@ Execute the program by passing one argument corresponding to the integer number 
 - Uses condition variable and mutex for managing shared resources
 - Utilizing 'ncurses.h' library helps with real-time visualization of excecuted program
 ## Future changes
-- Implement usage of vectors and smart pointers usage instead of arrays and raw pointers for improved memory management.
+- ~~Implement usage of smart pointers instead of raw pointers for improved memory management.~~
 
