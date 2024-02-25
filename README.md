@@ -14,9 +14,9 @@ Execute the program by passing one argument corresponding to the integer number 
 ./philosophers 5
 ```
 ## Features
-- Handles deadlock and starvation cases
-- Uses condition variable and mutex for managing shared resources
-- Utilizing 'ncurses.h' library helps with real-time visualization of excecuted program
+- Handles deadlock and starvation cases,
+- Uses condition variable and mutex for managing shared resources,
+- Utilizing 'ncurses.h' library helps with real-time visualization of excecuted program.
 ## Future changes
 - ~~Implement usage of smart pointers instead of raw pointers for improved memory management.~~
 
