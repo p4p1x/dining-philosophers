@@ -1,7 +1,11 @@
 # dining-philosophers
 Simulation of the dining philosophers problem.
 ## Usage
-Make sure you have installed 'ncurses.h' library. Then compile the program using a compiler of choice:
+Make sure you have installed 'ncurses.h' library. 
+```bash
+sudo apt-get install libncurses-dev
+```
+Then compile the program using a compiler of choice:
 ```bash
 g++ -o philosophers philosophers.cpp -lncurses
 ```
